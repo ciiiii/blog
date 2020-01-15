@@ -1,0 +1,11 @@
+baseURL = "http://example.org/"
+languageCode = "zh-cn"
+title = "ciii's blog"
+theme = "base16"
+isCJKLanguage = true
+[permalinks]
+  post = "/:year/:month/:title/"
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+  series = "series"
