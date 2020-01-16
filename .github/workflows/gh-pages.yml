@@ -34,7 +34,7 @@ jobs:
           PUBLISH_DIR: ./public
 
       - name: Purge CDN Cache
-        uses: 3stacks/cloudflare-purge-cache-action@1.0.1
+        uses: 3stacks/cloudflare-purge-cache-action@v1.0.1
         with:
           authToken: ${{ secrets.CLOUDFLARE_AUTH_TOKEN }}
           siteName: ciii.tech
