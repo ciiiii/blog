@@ -2,7 +2,7 @@ baseURL = "https://ciii.tech"
 languageCode = "zh-cn"
 title = "ciii's blog"
 theme = "base16"
-isCJKLanguage = true
+hasCJKLanguage = true
 [permalinks]
   post = "/:year/:month/:title/"
 [taxonomies]
