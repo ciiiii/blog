@@ -32,3 +32,11 @@ jobs:
           ACTIONS_DEPLOY_KEY: ${{ secrets.ACTIONS_PUSH }}
           PUBLISH_BRANCH: gh-pages
           PUBLISH_DIR: ./public
+
+      - name: Purge CDN Cache
+        uses: 3stacks/cloudflare-purge-cache-action@1.0.1
+        with:
+          authToken: ${{ secrets.CLOUDFLARE_AUTH_TOKEN }}
+          siteName: ciii.tech
+          authEmail: allen.ccccnm@gmail.com
+          fileList: '["https://ciii.tech/index.html"]'
