@@ -3,9 +3,12 @@ languageCode = "zh-cn"
 title = "ciii's blog"
 theme = "base16"
 hasCJKLanguage = true
+pygmentsuseclasses = true
 [permalinks]
   post = "/:year/:month/:title/"
 [taxonomies]
   tag = "tags"
   category = "categories"
   series = "series"
+[params]
+author = "ciii"
