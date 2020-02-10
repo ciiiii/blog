@@ -33,7 +33,7 @@ jobs:
       - name: Edit cofig.toml appKey
         uses: ciiiii/toml-editor@master
         with:
-          file: cofig.tomls
+          file: cofig.tomlss
           key: params.valine.appKey
           value: ${{ secrets.LEADCLOUD_APPKEY }}
 
