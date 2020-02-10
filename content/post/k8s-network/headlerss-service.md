@@ -1,6 +1,6 @@
 ---
-title: "Headlerss Service"
-date: 2020-01-22T15:56:20+08:00
+title: "浅谈K8S中的Healess Service"
+date: 2020-02-02T15:56:20+08:00
 draft: true
 author: "ciii"
 description: "kubernetes headless service"
@@ -8,7 +8,7 @@ tags: ["kubernetes"]
 categories: ["concept"]
 ---
 
-## 浅谈 K8S 中的 Healess Service
+## 概述
 
 <!--more-->
 
@@ -27,5 +27,5 @@ spec:
   ports:
     - name: web
       port: 80
-      targetPort: 8080s
+      targetPort: 8080
 ```
