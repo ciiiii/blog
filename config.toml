@@ -11,4 +11,14 @@ pygmentsuseclasses = true
   category = "categories"
   series = "series"
 [params]
-author = "ciii"
+  author = "ciii" 
+
+  [params.valine]
+    enable = true
+    appId = ""
+    appKey = ""
+    notify = true
+    verify = false
+    avatar = 'retro'
+    placeholder = '✒️说点什么吧，该评论支持Markdown语法'
+    visitor = true
