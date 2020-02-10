@@ -30,6 +30,11 @@ jobs:
           key: params.valine.appId
           value: ${{ secrets.LEADCLOUD_APPID }}
 
+      - name: Debug
+        shell: bash
+        run: |
+          cat config.toml
+
       - name: Edit cofig.toml appKey
         uses: ciiiii/toml-editor@master
         with:
