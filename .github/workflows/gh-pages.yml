@@ -37,6 +37,11 @@ jobs:
           key: params.valine.appKey
           value: ${{ secrets.LEADCLOUD_APPKEY }}
 
+      - name: Debug
+        shell: bash
+        run: |
+          cat config.toml
+
       - name: Build
         run: hugo --gc --minify --cleanDestinationDir
 
